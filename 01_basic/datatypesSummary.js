@@ -56,3 +56,27 @@ console.log(typeof undefined);//unndefined
 console.log(typeof heros)//object
 //mainly all non primitive data types type are object
 // https://262.ecma-international.org/5.1/
+//
+//two types of memory stack ,heap
+//stack(primitive),heap(non pr.used)
+
+//stack memory used  then we get a copy of declared variable(pass by value concept) 
+//heap we get reference and any chnange directly implemented to original ones value(pass by  reference concept)
+let myytName="ritika singh";//primitive
+
+let annotherName=myytName
+
+annotherName="chaiandCode"
+console.log(annotherName);
+console.log(myytName);
+
+
+let user={//non primitive
+    email:"ritikasin@gmail.com",
+    upi:"123",
+}
+let userTwo=user;
+
+userTwo.email="rit2gmail.com"
+console.log(user.email);
+console.log(userTwo.email);
