@@ -77,6 +77,7 @@ console.log(instructor);
 //     "coursename": "js in hindi",
 //     "price": "free"
 // }
+//it is way to write json and down is also
 
 [
     {},
